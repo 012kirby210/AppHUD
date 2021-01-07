@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_category_title_high_counter"
+        android:key="@string/pref_category_key_high_counter">
+        <ListPreference android:key="@string/pref_key_high_counter_color"
+            android:title="@string/pref_title_high_counter_color"
+            android:dialogTitle="@string/pref_title_high_counter_color"
+            android:entries="@array/pref_list_color_entries"
+            android:entryValues="@array/pref_list_color_values"
+            android:defaultValue="@string/pref_dialog_default_value_high_counter_color"/>
+        <ListPreference android:key="@string/pref_key_high_counter_font"
+            android:title="@string/pref_title_high_counter_font"
+            android:dialogTitle="@string/pref_dialog_title_high_counter_font"
+            android:entries="@array/pref_list_font_entries"
+            android:entryValues="@array/pref_list_font_values"
+            android:defaultValue="@string/pref_dialog_default_value_high_counter_font"/>
+        <ListPreference android:key="@string/pref_key_high_counter_unit"
+            android:title="@string/pref_title_high_counter_unit"
+            android:dialogTitle="@string/pref_dialog_title_high_counter_unit"
+            android:entries="@array/pref_list_unit_entries"
+            android:entryValues="@array/pref_list_unit_values"
+            android:defaultValue="@string/pref_dialog_default_value_high_counter_unit"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_title_low_counter"
+        android:key="@string/pref_category_key_low_counter">
+        <ListPreference android:key="@string/pref_key_low_counter_color"
+            android:title="@string/pref_title_low_counter_color"
+            android:dialogTitle="@string/pref_title_low_counter_color"
+            android:entries="@array/pref_list_color_entries"
+            android:entryValues="@array/pref_list_color_values"
+            android:defaultValue="@string/pref_dialog_default_value_low_counter_color"/>
+        <ListPreference android:key="@string/pref_key_low_counter_font"
+            android:title="@string/pref_title_low_counter_font"
+            android:dialogTitle="@string/pref_dialog_title_low_counter_font"
+            android:entries="@array/pref_list_font_entries"
+            android:entryValues="@array/pref_list_font_values"
+            android:defaultValue="@string/pref_dialog_default_value_low_counter_font"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

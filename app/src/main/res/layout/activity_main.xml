@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:keepScreenOn="true"
+    tools:context="kawa.ttehaute.MainActivity">
+
+    <TextView
+        android:id="@+id/afficheur_km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:rotation="180"
+        android:rotationY="180"
+        android:text="high_counter"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toTopOf="@+id/afficheur_ms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <TextView
+        android:id="@+id/afficheur_ms"
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_marginTop="10sp"
+        android:background="@android:color/background_dark"
+        android:rotation="180"
+        android:rotationY="180"
+        android:text="low_counter"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/afficheur_km"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/afficheur_km" />
+
+    <ImageButton
+        android:id="@+id/add_waypoint_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:onClick="speak"
+        android:background="@android:color/background_dark"
+        android:contentDescription="Add waypoint"
+        app:layout_constraintBottom_toTopOf="@+id/afficheur_km"
+        app:layout_constraintEnd_toStartOf="@+id/afficheur_km"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/guideline6"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.03" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintGuide_begin="25dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

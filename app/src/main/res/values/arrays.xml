@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array  name="pref_list_color_entries">
+        <item>Rouge</item>
+        <item>Pourpre</item>
+        <item>Bleu</item>
+        <item>Cyan</item>
+        <item>Turquoise</item>
+        <item>Vert</item>
+        <item>Citron</item>
+        <item>Jaune</item>
+        <item>Orange</item>
+        <item>Blanc</item>
+        <item>Vert clair</item>
+        <item>Bleu brillant</item>
+    </string-array>
+    <string-array name="pref_list_color_values">
+        <item>#F44336</item>
+        <item>#9C27B0</item>
+        <item>#2196F3</item>
+        <item>#00BCD4</item>
+        <item>#009688</item>
+        <item>#4CAF50</item>
+        <item>#CDDC39</item>
+        <item>#FFEB3B</item>
+        <item>#FF9800</item>
+        <item>#FFFFFF</item>
+        <item>#FF99CC00</item>
+        <item>#FF00DDFF</item>
+    </string-array>
+    <string-array name="pref_list_font_entries">
+        <item>Anton</item>
+        <item>Audiowide</item>
+        <item>CabinSketch</item>
+        <item>CormorantGaramond</item>
+        <item>DancingScript</item>
+        <item>Dhurjati</item>
+        <item>GloriaHallelujah</item>
+        <item>JosefinSlab</item>
+        <item>LibreBaskerville</item>
+        <item>Limelight</item>
+        <item>LondrinaOutline</item>
+        <item>Lora</item>
+        <item>LuckiestGuy</item>
+        <item>Merriweather</item>
+        <item>Monoton</item>
+        <item>NixieOne</item>
+        <item>Orbitron</item>
+        <item>Ovo</item>
+        <item>Parisienne</item>
+        <item>PlayfairDisplay</item>
+        <item>PoiretOne</item>
+        <item>Sacramento</item>
+        <item>ShadowsIntoLight</item>
+        <item>Syncopate</item>
+    </string-array>
+    <string-array name="pref_list_font_values">
+        <item>font/Anton-Regular.ttf</item>
+        <item>font/Audiowide-Regular.ttf</item>
+        <item>font/CabinSketch-Regular.ttf</item>
+        <item>font/CormorantGaramond-Regular.ttf</item>
+        <item>font/DancingScript-Regular.ttf</item>
+        <item>font/Dhurjati-Regular.ttf</item>
+        <item>font/GloriaHallelujah.ttf</item>
+        <item>font/JosefinSlab-Regular.ttf</item>
+        <item>font/LibreBaskerville-Regular.ttf</item>
+        <item>font/Limelight-Regular.ttf</item>
+        <item>font/LondrinaOutline-Regular.ttf</item>
+        <item>font/Lora-Regular.ttf</item>
+        <item>font/LuckiestGuy-Regular.ttf</item>
+        <item>font/Merriweather-Regular.ttf</item>
+        <item>font/Monoton-Regular.ttf</item>
+        <item>font/NixieOne-Regular.ttf</item>
+        <item>font/Orbitron.ttf</item>
+        <item>font/Ovo-Regular.ttf</item>
+        <item>font/Parisienne-Regular.ttf</item>
+        <item>font/PlayfairDisplay-Regular.ttf</item>
+        <item>font/PoiretOne-Regular.ttf</item>
+        <item>font/Sacramento-Regular.ttf</item>
+        <item>font/ShadowsIntoLight.ttf</item>
+        <item>font/Syncopate-Regular.ttf</item>
+    </string-array>
+    <string-array name="pref_list_unit_entries">
+        <item>Km/h</item>
+        <item>M/h</item>
+    </string-array>
+    <string-array name="pref_list_unit_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
