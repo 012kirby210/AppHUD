@@ -25,7 +25,7 @@ accessible dans le répertoire de l'app.
 L'ensemble des points GPX ainsi enregistrés formeront un graphe GPX exploitable avec des applications compatibles, telles que josm :  
 [ https://wiki.openstreetmap.org/wiki/FR:JOSM](https://wiki.openstreetmap.org/wiki/FR:JOSM)  
 
-:grey-question: La donnée vocale est capturée par le mobile, puis envoyée aux serveurs de google pour traitement, et revient pour analyse. 
+:grey_question: La donnée vocale est capturée par le mobile, puis envoyée aux serveurs de google pour traitement, et revient pour analyse. 
 Il convient donc d'avoir du réseau et du forfait pour se servir de l'option.  
 
 Un son de "checkpoint" doit se faire entendre si le point est enregistré.
