@@ -21,8 +21,9 @@ Le système embarque un système de prise de POI.
 
 L'app est réglée pour intercepter le "ok google". Une fois le "ok google" dit, en disant "checkpoint", une trace au format GPX est déposé dans un fichier 
 accessible dans le répertoire de l'app.  
+
 L'ensemble des points GPX ainsi enregistrés formeront un graphe GPX exploitable avec des applications compatibles, telles que josm :  
-[ https://www.lwjgl.org/ ](https://www.lwjgl.org/)  
+[ https://wiki.openstreetmap.org/wiki/FR:JOSM](https://wiki.openstreetmap.org/wiki/FR:JOSM)  
 
 :grey-question: La donnée vocale est capturée par le mobile, puis envoyée aux serveurs de google pour traitement, et revient pour analyse. 
 Il convient donc d'avoir du réseau et du forfait pour se servir de l'option.  
